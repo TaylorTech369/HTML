@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Site</title>  
+</head>
+
+<body>
+
+    <style>
+        body {
+            background-image: url("https://wallpapers.com/images/hd/purple-galaxy-1920-x-1080-background-g19zxj2658cpy7nd.jpg");
+            background-size: cover;
+            background-repeat: no-repeat; /* Para evitar que a imagem se repita */
+            background-position: center; /* Para centralizar a imagem */
+            margin-top: 1rem;
+          }
+          </style>
+
+    <span style="color: #a60cff; font-weight: bold;">
+    <h1>Seres mágicos</h1>
+    <h2>A seguir...</h2>
+
+    <h1>...</h1>
+
+    <img  src="https://thumbs.dreamstime.com/b/ilustra%C3%A7%C3%A3o-colorida-%C3%B3leo-com-um-gato-preto-m%C3%A1gico-orelhas-pontiagudas-ele-tem-olhos-m%C3%ADsticos-azuis-capa-roxa-e-cachecol-235560708.jpg" width="200" height="300" />
+    <h2> ...: um felino habilidoso e inteligente de origem misteriosa, acostumado a aparecer de maneira estranha quando quando algo perigoso estiver prestes a acontecer. esses sendo os principais motivos da presença mesmo ser considerada simbolo de má sorte </h2>
+
+    <h1>...</h1>
+
+    <img src="https://img.freepik.com/fotos-premium/coruja-cosmica-numa-noite-estrelada_1150025-76624.jpg?semt=ais_hybrid&w=740" width="200" height="300" />
+    <h2> ...: Considerada o oposto de ..., sua presença sempre esta vinculada a proteção e bençãos, com sua presença eliminando pestes e atraindo boa sorte, parecendo um rastro estelar quando vista no céu e quase impossivel de ve-la descansando em galhos. </h2>
+
+    </span>
+
+</body>
+</html>
