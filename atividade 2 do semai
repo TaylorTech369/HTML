@@ -1,0 +1,33 @@
+
+<html>
+    <head>
+        <style>
+            .caixa {
+            
+            text-align: center;
+            background-color: aqua;
+            width: 300px;
+            height: 100px;
+            padding: 20px;
+            margin: 30px ;
+            border: 13px;
+            border-radius: 8px;
+            background-color: rgb(113, 175, 255);
+            color: rgb(38, 0, 255);
+            border: 2px solid black;
+          
+    }
+
+        </style>
+
+</head>
+
+<body>
+    <div class="caixa">
+        <p>caixa</p>
+    </div>
+</body>
+
+
+</html> 
+
