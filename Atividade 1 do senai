@@ -1,0 +1,28 @@
+<html>
+<head>
+    <style>
+
+   button {
+        width: 100px; /*Largura*/
+        padding: 10px; /*Distancia de dentro, da escrita da borda*/
+        margin-top: 12px; /*a distancia entre os inputs*/
+        border: 13px; /*cor da borda*/
+        border-radius: 8px;  /*deixa a borda redonda*/
+        color: rgb(255, 255, 255); /*Muda a cor da letra dentro do botão*/
+        font-size: 16px;  /*aumenta a fonte também*/
+        font-weight: bold; /*Deixa a fonte em negrito*/
+        background-color: rgb(20, 218, 20); /*Cor do fundo do botão*/
+   }
+
+   button:hover{
+    background-color:  rgb(15, 153, 49); /*cor que vai ficar ao mouse ser colocado emcima*/
+   }
+    </style>
+</head>
+
+<body>
+
+</body>
+ <div><button>Botao sem acento</button></div> 
+
+</html> 
