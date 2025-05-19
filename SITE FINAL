@@ -1,51 +1,155 @@
-CTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+<CTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        
+        <style>
+        /* Resetar as  margens e definir a fonte da página */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        /* Definindo o fundo da página (gradient) e centralizar o cont*/
+        body {
+            height: 100vh;
+            background-image: url("https://wallpapers.com/images/hd/purple-galaxy-1920-x-1080-background-g19zxj2658cpy7nd.jpg");
+            display: flex;
+            align-items: center; /*Alinhamento vertical*/
+            justify-content: center; /*Alinhamento horizontal*/
+        }
+        /*Estilizar o container*/
+        .login-container {
+            background-image: url("https://w0.peakpx.com/wallpaper/197/899/HD-wallpaper-purple-planet-and-purple-space-purple.jpg");
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0px 10px 20px rgb(0, 0, 0);
+            width: 450px;
+            height: auto;
+            text-align: center;
+        }
     
-    <style>
-    /* Resetar as  margens e definir a fonte da página */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
-    }
-    /* Definindo o fundo da página (gradient) e centralizar o cont*/
-    body {
-        height: 100vh;
-        background-image: url("https://wallpapers.com/images/hd/purple-galaxy-1920-x-1080-background-g19zxj2658cpy7nd.jpg");
-        display: flex;
-        align-items: center; /*Alinhamento vertical*/
-        justify-content: center; /*Alinhamento horizontal*/
-    }
-    /*Estilizar o container*/
-    .login-container {
-        background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200805/pngtree-purple-and-blue-nebula-galaxy-background-image_386406.jpg");
-        padding: 40px 30px;
-        border-radius: 12px;
-        box-shadow: 0px 10px 20px rgba(0,0,0,0.8);
-        width: 300px;
-        text-align: center;
-    }
+         /*Estilizar o titulo*/
+         .login_container h2{
+                margin-bottom: 10px;
+                color: #ab19ff
+            }
+    
+        /*Estilizar o campo de entrada (Usuário e Senha)*/
+        .login-container input {
+    
+        width: 100%;
+        padding: 10px 15px;
+        margin: 10px 0;
+        border: 1px rgb(134, 44, 156);
+        border-radius: 8px;
+        font-size: 14px;
+        }
+    
+         /*Estilizando o botão*/
+        .login-container button {
+            width: 100px;
+            padding: 12px;
+            margin-top: 12px ;
+            border: 13px;
+            border-radius: 8px;
+            background-color: rgb(223, 93, 255);
+            color: rgb(0, 0, 0);
+            font-size: 16px;  
+            font-weight: bold;
+        }
+    
+        /*Colocando a animação*/
+        .login-container button:hover {
+    
+            background-color:  rgb(180, 85, 204); /*Quando o mouse passar por cima do botão a cor dele mudará, amiação*/
+    
+        }
+    
+        /*Estilizar o texto "Esqueceu a senha?"*/
+        .login-container p{
+            margin-top: 15px;
+            font-size: 12px;
+            color: aliceblue;
+        }
+    
+        .display {          
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            
+        }
+            
+    
+        </style>
+    
+         <span style="color: #cc5fff; font-weight: bold;">
+        
+    </head>
+    
+    <body>
+        <!-- Container da tela de login-->
+    
+        <div class="login-container">
 
-    </style>
-    
-</head>
+            <h2>Login</h2>
 
-<body>
-    <!-- Container da tela de login (quadradinho branco de login) -->
-    <div class="login-container">
-        <h2>Login</h2>
-        <form>
-            <input type="text" placeholder="Usuário" required>
-            <input type="password" placeholder="Senha" required>
-            <button type="submit">Entrar</button>
-        </form>     
-        <p>Esqueceu a senha ?</p>
-    </div>
+        </span>
+
+        <span>
+         
+            <form>
+              
+                <div>
+                <input type="text" placeholder="Usuário" required>
+                </div>
+
+                <div>
+                <input type="password" placeholder="Senha" required>
+                </div>
+
+                <div>
+                <hr>
+                </div>
+
+                <section class="display">
+                <input type="checkbox" name="check" id="filme" value="filme">Filme
+                <input type="checkbox" name="check" id="filme" value="filme">Series
+                <input type="checkbox" name="check" id="filme" value="filme">Cinema
+                <input type="checkbox" name="check" id="filme" value="filme">Animação
+                <input type="checkbox" name="check" id="filme" value="filme">Todos
+
+                </section>
+            </hr>
+                        
+               
+                <div>
+                <div>
+                <button type="submit">Entrar</button>
+                </div>
+
+                <div>
+                <button type="submit">esqueceu?</button>
+                </div>
+
+                <div>
+                <Button type="Reset">Limpar</Button>
+                </div>
+
+                <div>
+                    
+                </section>
+                </div>
+            </span>
+                
+        </style>
+    </form>     
+
+      
     
-</body>
-</html>
+        
+    </body>
+    </html>
