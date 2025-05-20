@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    
+    <script src="Javascript1.js"></script>
+</body>
+
+</html>
+
+
+
+
+/* var nome = "Taylor" */
+/* var idade = Number(16) */
+/* alert("O meu nome é " + nome + " e minha idade é " + idade) 
+var nome = prompt("qual seu nome?")
+var idade = Number(prompt("qual sua idade?"))
+alert(" Meu nome é " + nome + " e eu tenho " + idade + " anos. ")*/
+
+var v1, v2
+/*var resto*/
+
+v1 = Number(prompt("digite valor A"))
+v2 = Number(prompt("digite valor B"))
+
+
+//var mais = alert("soma: " + (v1 + v2))
+//var menos = alert("soma: " + (v1 - v2))
+//var vezes = alert("soma: " + v1 * v2)
+//var dividido = alert("soma: " + v1 / v2)
+
+
+var resto = alert("Resto:" + v1%v2 + "\nsoma: " + (v1 + v2))
+
+
+/*resto = v1 %= v2*/
+
+
+
+
+
+
+
+
+
+
+
