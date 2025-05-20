@@ -117,10 +117,10 @@
 
                 <section class="display">
                 <input type="checkbox" name="check" id="filme" value="filme">Filme
-                <input type="checkbox" name="check" id="filme" value="filme">Series
-                <input type="checkbox" name="check" id="filme" value="filme">Cinema
-                <input type="checkbox" name="check" id="filme" value="filme">Animação
-                <input type="checkbox" name="check" id="filme" value="filme">Todos
+                <input type="checkbox" name="check" id="Series" value="Series">Series
+                <input type="checkbox" name="check" id="Cinema" value="cinema">Cinema
+                <input type="checkbox" name="check" id="Animação" value="Animação">Animação
+                <input type="checkbox" name="check" id="Todos" value="Todos">Todos
 
                 </section>
             </hr>
