@@ -1,0 +1,139 @@
+HTML, que significa HyperText Markup Language (Linguagem de Marcação de Hipertexto), serve para estruturar e organizar o conteúdo de uma página web, definindo sua estrutura e significado. É como a base de construção de um website, determinando como os elementos (como textos, imagens, vídeos, etc.) são organizados e exibidos no navegador. 
+
+Em HTML, os comandos, também conhecidos como tags, são utilizados para estruturar o conteúdo de uma página web. Eles definem a estrutura, o tipo de conteúdo e o comportamento dos elementos presentes na página. 
+Estrutura básica de um documento HTML:
+
+<DOCTYPE>: Declara o tipo de documento e a versão do HTML utilizada. 
+<html>: Define o elemento raiz do documento. 
+<head>: Contém informações sobre o documento, como o título, meta-tags e links para folhas de estilo e scripts. 
+<title>: Define o título que aparece na barra de título do navegador. 
+<body>: Contém o conteúdo principal visível na página. 
+
+Tags comuns para estrutura e conteúdo:
+<h1> a <h6>: Criam títulos de diferentes níveis. 
+<p>: Define um parágrafo de texto. 
+<a>: Cria um link para outra página ou seção. 
+<img>: Insere uma imagem na página. 
+<ul> e <ol>: Criam listas não ordenadas e ordenadas, respectivamente. 
+<li>: Define um item de lista dentro de <ul> ou <ol>. 
+<div> e <span>: Divisões e marcadores de conteúdo para estilização. 
+<br>: Quebra de linha. 
+<hr>: Linha horizontal. 
+
+Tags para conteúdo semântico (HTML5):
+<header>: Define o cabeçalho da página.
+<nav>: Define o menu de navegação.
+<article>: Define um artigo ou publicação.
+<aside>: Define conteúdo marginal, como um sidebar.
+<footer>: Define o rodapé da página.
+<main>: Define o conteúdo principal da página. 
+
+Tags para formulários:
+<form>: Define um formulário para interação com o usuário. 
+<input>: Cria diversos tipos de campos de entrada (texto, número, etc.). 
+<label>: Define uma legenda para um campo de entrada. 
+<select>: Cria uma caixa de seleção (lista suspensa). 
+<textarea>: Cria um campo de texto de várias linhas. 
+<button>: Cria um botão.
+
+Outras tags importantes:
+<meta>: Define informações sobre o documento, como a codificação, o autor e a descrição. 
+<link>: Define links para folhas de estilo e outros recursos. 
+<script>: Define scripts JavaScript para adicionar funcionalidades. 
+<style>: Define estilos CSS para formatar o conteúdo. 
+<code>, <pre>, <kbd>, <samp>: Tags para formatar código e dados de entrada. 
+<blockquote>: Define uma citação longa. 
+<em>, <strong>: ênfase e destaque no texto. 
+**<audio>, `
+
+
+O CSS (Cascading Style Sheets, ou Folha de Estilo em Cascata em português)é utilizado para definir a apresentação visual de uma página web, separando a estrutura (definida pelo HTML) da apresentação (cores, fontes, espaçamentos, etc.).Ele é fundamental para criar sites e páginas web com estilos personalizados e visualmente atraentes. 
+
+Cor:
+color: define a cor do texto. 
+background-color: define a cor de fundo de um elemento. 
+
+Tamanho:
+width: define a largura de um elemento. 
+height: define a altura de um elemento. 
+font-size: define o tamanho da fonte. 
+
+Espaçamento:
+padding: define o espaçamento interno de um elemento. 
+margin: define o espaçamento externo de um elemento. 
+
+Layout:
+display: controla como um elemento é exibido (inline, block, etc.). 
+position: define a posição de um elemento na página. 
+
+Bordas:
+border: define a borda de um elemento (cor, estilo, largura). 
+
+Outros:
+text-shadow: cria uma sombra no texto. 
+text-decoration: adiciona decoração ao texto (sublinhado, riscado, etc.). 
+transition: controla transições entre diferentes estados de um elemento. 
+transform: aplica transformações a um elemento (rotacionar, escalar, etc.). 
+
+Como aplicar CSS em HTML:
+Inline: Aplicar estilo diretamente no atributo style de uma tag HTML. 
+Interno: Criar uma seção <style> no <head> do HTML com as regras CSS. 
+Externo: Criar um arquivo CSS separado e ligá-lo ao HTML com a tag <link> no <head>. 
+
+Observações:
+Os seletores CSS são usados para identificar quais elementos receberão as propriedades definidas. 
+Existem diferentes tipos de seletores (tag, classe, ID, pseudo-classe, etc.). 
+
+
+JavaScript serve para adicionar interatividade e dinamicidade a páginas web e a outras aplicações. É uma linguagem de programação que permite criar elementos interativos, como menus, formulários com validação, animações, gráficos, entre outros. 
+
+Em HTML, JavaScript é incorporado utilizando a tag <script>, que pode estar dentro do <head> ou do <body> do documento. A tag <script> indica ao navegador que o conteúdo dentro dela deve ser interpretado como código JavaScript. 
+Formas de Incorporar JavaScript em HTML:
+
+1. Inline:
+Inserir o código JavaScript diretamente dentro de tags HTML, geralmente usando o atributo onclick, onload, etc.
+
+2. Interno:
+Incluir o código JavaScript dentro da tag <script> entre as tags <head> ou <body> do documento HTML.
+
+3. Externo:
+Linkar arquivos JavaScript externos usando a tag <script src="caminho/para/arquivo.js"></script>. 
+
+Exemplos:
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Inline.
+Código:
+
+    <button onclick="alert('Olá!')">Clique aqui</button>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Interno.
+Código:
+
+    <head>
+        <script>
+            function saudacao() {
+                alert('Olá, mundo!');
+            }
+        </script>
+    </head>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Externo.
+Código:
+
+    <script src="meu-script.js"></script>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Importante:
+É recomendável incluir o código JavaScript em arquivos externos para manter a organização e facilitar a manutenção do código. 
+Navegadores mais antigos podem não interpretar JavaScript. Para garantir que o conteúdo da página ainda seja exibido corretamente, é possível usar a tag <noscript> para mostrar uma alternativa caso o JavaScript não seja executado. 
+A tag <script> pode conter código JavaScript, como declarações de variáveis, funções, e chamadas de funções. 
+O JavaScript pode ser usado para manipular elementos HTML, adicionar interatividade, realizar cálculos, e muito mais. 
+
