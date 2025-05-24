@@ -1,0 +1,79 @@
+            
+            
+            /* Definindo o fundo da página (gradient) e centralizar o cont*/
+            body {
+            height: center;
+            background-image: url("https://preview.redd.it/t3fqyqrwmw971.png?auto=webp&s=0f7ed64a57298986541078d2f631303fb66e8b30");
+            display: flex;
+            align-items: center; /*Alinhamento vertical*/
+            justify-content: center; /*Alinhamento horizontal*/
+            background-size: 1080px 840px;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100%;
+            }
+
+            /*Estilizar o container*/
+            .login-container {
+            background-image: url("");
+           
+            padding: 25px 10px;
+            border-radius: 12px;
+            /* box-shadow: 0px 10px 20px rgb(0, 0, 0); */
+            width: 450px;
+            height: auto;
+            text-align: center;
+            }
+
+        /*Estilizar o titulo*/
+         .login_container h2{
+                margin-bottom: 10px;
+                color:#ab19ff
+            }
+
+             /*Estilizar o campo de entrada (Usuário e Senha)*/
+        .login-container input {
+    
+        width: 50%;
+        padding: 10px 15px;
+        margin: 10px 0;
+        border: 1px rgb(134, 44, 156);
+        border-radius: 8px;
+        font-size: 14px;
+        }
+
+            /*Estilizando o botão*/
+        .login-container button {
+            width: 100px;
+            padding: 12px;
+            margin-top: 12px ;
+            border: 13px;
+            border-radius: 8px;
+            background-color: rgb(223, 93, 255);
+            color: rgb(0, 0, 0);
+            font-size: 16px;  
+            font-weight: bold;
+        }
+
+        /*Colocando a animação*/
+        .login-container button:hover {
+    
+            background-color:  rgb(180, 85, 204); /*Quando o mouse passar por cima do botão a cor dele mudará, amiação*/
+    
+        }
+
+        /*Estilizar o texto "Esqueceu a senha?"*/
+        .login-container p{
+            margin-top: 15px;
+            font-size: 12px;
+            color: aliceblue;
+        }
+
+        .display {          
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        
