@@ -1,0 +1,65 @@
+<CTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        
+        <style>
+        /* Resetar as  margens e definir a fonte da página */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        </style>
+    
+         <span style="color: #cc5fff; font-weight: bold;">
+        
+    </head>
+    
+    <body>
+        <!-- Container da tela de login-->
+    
+        <div class="login-container">
+
+            <h2>Login</h2>
+
+        </span>
+
+        <span>
+         
+            <form>
+              
+                <div>
+                <input type="text" placeholder="Usuário" required>
+                </div>
+
+               
+                <div>
+                <hr>
+                <section class="display">
+                  
+                <input type="radio" name="check" id="" value="">
+                
+                </section>
+           
+              
+                <div>
+          
+                <button type="submit">Entrar</button>
+            
+                </div>
+
+            </span>
+                
+        </style>
+    </form>     
+
+
+      
+    
+        
+    </body>
+    </html>
